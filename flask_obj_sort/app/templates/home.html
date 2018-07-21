@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block content %}
+	<!-- <h1>Hello World!</h1> -->
+
+	<form class="form-inline my-4 my-lg-2" method="POST">
+          <input class="form-control mr-sm-2" name="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sort</button>
+    </form>
+
+    </nav>
+	
+	<main role="main">
+		<div class="jumbotron">
+				<h1 class="display-5">{{name}}</h1>
+		</div>
+
+	</main>
+
+{% endblock content %}
